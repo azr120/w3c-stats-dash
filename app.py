@@ -1,15 +1,10 @@
 import dash
-from dash.dependencies import Input, Output
 import dash_table
-import dash_core_components as dcc
-import dash_html_components as html
-import plotly.graph_objects as go
 import pandas as pd
-import chart_studio
-import chart_studio.plotly as py
 
 
-df = pd.read_csv('dash-profiles.csv')
+
+df = pd.read_csv('https://raw.githubusercontent.com/azr120/w3c-stats-dash/master/dash-profiles.csv?token=GHSAT0AAAAAABJ5EIVY5EEOI5NNGKZTFFKUYPH7UQA')
 
 
 app = dash.Dash(__name__)
