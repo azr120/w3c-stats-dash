@@ -8,7 +8,7 @@ df = pd.read_csv('https://raw.githubusercontent.com/azr120/w3c-stats-dash/master
 
 
 app = dash.Dash(__name__)
-
+server = app.server
 # Index(['battleTag', 'race', 'raceId', 'Games', 'HeroScorePM', 'UnitScorePM',
 #        'GPM', 'LPM', 'UpkeepPM', 'ResourceScorePM', 'TotalScorePM',
 #        'Unit-res-ratio', 'Gold-Lumber-Ratio', 'Duration', 'TotalVs', 'HeroVs',
