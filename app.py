@@ -4,7 +4,7 @@ import pandas as pd
 
 
 #test
-df = pd.read_csv('https://raw.githubusercontent.com/azr120/w3c-stats-dash/master/dash-profiles.csv?token=GHSAT0AAAAAABJ5EIVY5EEOI5NNGKZTFFKUYPH7UQA')
+df = pd.read_csv('https://raw.githubusercontent.com/azr120/w3c-stats-dash/master/dash-profiles.csv?token=GHSAT0AAAAAABJ5EIVY5EEOI5NNGKZTFFKUYPH7UQA', index_col=0)
 
 
 app = dash.Dash(__name__)
