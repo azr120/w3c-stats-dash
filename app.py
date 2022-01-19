@@ -59,6 +59,7 @@ app.layout = dash_table.DataTable(
     ],
     data=df.to_dict('records'),
     filter_action='native',
+    page_size=10,
 
     style_table={
         'height': 400,
